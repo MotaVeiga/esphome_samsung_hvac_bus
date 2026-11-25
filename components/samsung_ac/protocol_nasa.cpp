@@ -129,9 +129,9 @@ namespace esphome
         Address Address::get_my_address()
         {
             Address address;
-            address.klass = AddressClass::JIGTester;
-            address.channel = 0xFF;
-            address.address = 0;
+            address.klass = AddressClass::WiFiKit;
+            address.channel = 0x02;
+            address.address = 0xFF;
             return address;
         }
 
